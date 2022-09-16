@@ -90,7 +90,7 @@
 
 .presentacion img
 {
-    animation: bounceIn;
+animation: bounceIn;
  animation-duration: 1s;
  width: 400px;
  height: 400px;
@@ -124,12 +124,37 @@
     align-content: center;
 }
 
+.centrado h1
+{
+    text-align: center;
+}
+
+.centrado h2
+{
+    text-align: center;
+    animation: fadeInUp;
+    animation-duration: 1s;
+    font-size: 50px;
+}
+.centrado h3
+{
+    text-align: center;
+}
+
 .caritem img
 {
     
     position:relative;
     object-fit: cover;
     max-width: 500px;
+    margin: 0 auto;
+}
+.caritem2 img
+{
+    
+    position:relative;
+    object-fit: cover;
+    max-width: 300px;
     margin: 0 auto;
 }
 
@@ -139,6 +164,7 @@
     margin: 0 auto;
     max-width: 800px;
 }
+
 
 
 
