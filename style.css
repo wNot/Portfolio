@@ -43,6 +43,13 @@
     display: flex;
     width: 100%;
 }
+
+.nvb a
+{
+    
+    align-self: center;
+    padding-left: 2rem;
+}
 .nvb ul
 {
     padding: 0;
@@ -128,7 +135,7 @@
 
 .carcover img
 {
-    object-fit: cover;
+    object-fit: cover;nvb
     margin: 0 auto;
     max-width: 800px;
 }
