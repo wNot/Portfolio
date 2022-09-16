@@ -166,7 +166,12 @@ animation: bounceIn;
 }
 
 
-
+.diseño
+{
+    background: url(./img/f6bea0679da52c05d68941d625645321.jpg);
+    padding-bottom: 3rem;
+    /* margin-bottom: 3rem; */
+}
 
 .fotoyvideo
 {
