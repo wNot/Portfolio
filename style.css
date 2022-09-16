@@ -1,0 +1,180 @@
+
+@import 'animate.css';
+*
+{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#presentacion
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+#conocimientos
+{
+    background: url(./img/767356.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#animimg
+{
+    animation: fadeInDown;
+    animation-duration: 1s;
+}
+.fondo
+{
+    background-color: rgb(19, 19, 19);
+    background-size: cover;
+    width: 100vw;
+}
+
+.nvb
+{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(26, 32, 32);
+    display: flex;
+    width: 100%;
+}
+.nvb ul
+{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    width: 100vw;
+}
+
+.nvb ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero_main
+{
+    padding-top: 3rem;
+    justify-content: space-around;
+    grid-template-areas:
+    "presentacion"
+    "conocimientos"
+    "fotoyvideo";
+}
+
+.presentacion
+{
+    grid-area: "presentacion";
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100vw;
+    padding: 3rem;
+    width: 100vw;
+}
+
+.presentacion img
+{
+    animation: bounceIn;
+ animation-duration: 1s;
+ width: 400px;
+ height: 400px;
+ align-self: center;
+}
+
+
+.conocimientos
+{
+    grid-area: "conocimientos";
+    /* background-color: rgba(0, 0, 0, 0.527); */
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+}
+
+.centrado
+{
+    /* background-color: rgba(0, 0, 0, 0.527); */
+    color:white;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 2rem;
+    align-items: center;
+    align-content: center;
+}
+
+.caritem img
+{
+    
+    position:relative;
+    object-fit: cover;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.carcover img
+{
+    object-fit: cover;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+
+
+.fotoyvideo
+{
+    grid-area: "fotoyvideo";
+    color:white;
+    padding: 2rem;
+    justify-content: center;
+    justify-items: center;
+    width: 100vw;
+    grid-template-areas: 
+    "titulo"
+    "videos"
+    "fotos";
+}
+
+.titulo
+{
+    grid-area: "titulo";
+    
+    justify-content: space-around;
+    justify-items: center;
+}
+.videos
+{
+    grid-area: "videos";
+    justify-content: space-around;
+    justify-items: center;
+}
+.footer
+{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.footer img
+{
+    width: 50px;
+    height: 50px;
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+    
+}
