@@ -170,8 +170,11 @@ animation: bounceIn;
 {
     background: url(./img/f6bea0679da52c05d68941d625645321.jpg);
     padding-bottom: 3rem;
+    padding-top: 3rem;
     /* margin-bottom: 3rem; */
 }
+
+
 
 .fotoyvideo
 {
@@ -181,10 +184,6 @@ animation: bounceIn;
     justify-content: center;
     justify-items: center;
     width: 100vw;
-    grid-template-areas: 
-    "titulo"
-    "videos"
-    "fotos";
 }
 
 .titulo
